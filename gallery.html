@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="View our events gallery - weddings, concerts, church crusades, conferences, and corporate events powered by Tripple M Sounds.">
+  <title>Events Gallery | Tripple M Sounds</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Playfair+Display:wght@600;700&display=swap" rel="stylesheet">
+  <link href="css/style.css" rel="stylesheet">
+</head>
+<body>
+
+  <div id="site-nav"></div>
+
+  <header class="page-header">
+    <div class="container">
+      <h1>Events <span class="gold">Gallery</span></h1>
+      <p class="breadcrumb-nav"><a href="index.html">Home</a> / Gallery</p>
+    </div>
+  </header>
+
+  <section class="section">
+    <div class="container">
+      <p class="section-subtitle">A showcase of memorable events we've powered with professional sound, lighting, and equipment.</p>
+      <div class="category-tabs mb-4" id="gallery-filters">
+        <button class="category-tab active" data-filter="all">All Events</button>
+        <button class="category-tab" data-filter="weddings">Weddings</button>
+        <button class="category-tab" data-filter="church">Church Crusades</button>
+        <button class="category-tab" data-filter="concerts">Concerts</button>
+        <button class="category-tab" data-filter="conferences">Conferences</button>
+        <button class="category-tab" data-filter="graduation">Graduations</button>
+        <button class="category-tab" data-filter="parties">Parties</button>
+        <button class="category-tab" data-filter="corporate">Corporate</button>
+      </div>
+      <div class="grid grid-3" id="gallery-grid">
+        <div class="gallery-col fade-in" data-category="weddings"><div class="gallery-item" data-lightbox><img src="https://i.pinimg.com/736x/b9/92/1a/b9921a6916a5db6c088da200f95e6962.jpg" alt="Elegant wedding reception lighting" loading="lazy"><div class="overlay"><h5>Wedding Reception</h5><p class="text-small" style="color:rgba(255,255,255,0.7);">Full PA & uplighting setup</p></div></div></div>
+        <div class="gallery-col fade-in" data-category="church"><div class="gallery-item" data-lightbox><img src="https://i.pinimg.com/736x/0b/70/e5/0b70e5c96be98d0509e42bb6ef6755b6.jpg" alt="Church crusade stage with sound equipment" loading="lazy"><div class="overlay"><h5>Church Crusade</h5><p class="text-small" style="color:rgba(255,255,255,0.7);">Large-scale outdoor sound</p></div></div></div>
+        <div class="gallery-col fade-in" data-category="concerts"><div class="gallery-item" data-lightbox><img src="https://i.pinimg.com/736x/a5/20/ed/a520ed030ac87e3f593ac5afcc264928.jpg" alt="Live concert stage with line arrays" loading="lazy"><div class="overlay"><h5>Live Concert</h5><p class="text-small" style="color:rgba(255,255,255,0.7);">Line array & stage lighting</p></div></div></div>
+        <div class="gallery-col fade-in" data-category="conferences"><div class="gallery-item" data-lightbox><img src="https://i.pinimg.com/736x/09/f0/2a/09f02a0b1efbefee3a4994841276cc82.jpg" alt="Corporate conference AV setup" loading="lazy"><div class="overlay"><h5>Corporate Conference</h5><p class="text-small" style="color:rgba(255,255,255,0.7);">AV & podium setup</p></div></div></div>
+        <div class="gallery-col fade-in" data-category="graduation"><div class="gallery-item" data-lightbox><img src="https://i.pinimg.com/736x/15/f4/8e/15f48eb503e3c5ce5c3c31b45e805fa3.jpg" alt="Graduation ceremony stage" loading="lazy"><div class="overlay"><h5>Graduation Ceremony</h5><p class="text-small" style="color:rgba(255,255,255,0.7);">Stage & sound system</p></div></div></div>
+        <div class="gallery-col fade-in" data-category="parties"><div class="gallery-item" data-lightbox><img src="https://i.pinimg.com/736x/86/e4/78/86e4789ad28bde30e1b61441cddd6a58.jpg" alt="DJ party setup with lighting" loading="lazy"><div class="overlay"><h5>Birthday Party</h5><p class="text-small" style="color:rgba(255,255,255,0.7);">DJ & party lighting</p></div></div></div>
+        <div class="gallery-col fade-in" data-category="corporate"><div class="gallery-item" data-lightbox><img src="https://i.pinimg.com/736x/5b/3c/76/5b3c7660a9809cf15195f3e4e028c25f.jpg" alt="Corporate gala production" loading="lazy"><div class="overlay"><h5>Corporate Gala</h5><p class="text-small" style="color:rgba(255,255,255,0.7);">Premium AV production</p></div></div></div>
+        <div class="gallery-col fade-in" data-category="weddings"><div class="gallery-item" data-lightbox><img src="https://i.pinimg.com/736x/cf/f3/74/cff374ee0562a94651b9d9b2b69aced5.jpg" alt="Outdoor wedding event production" loading="lazy"><div class="overlay"><h5>Outdoor Wedding</h5><p class="text-small" style="color:rgba(255,255,255,0.7);">Ceremony sound & decor</p></div></div></div>
+        <div class="gallery-col fade-in" data-category="concerts"><div class="gallery-item" data-lightbox><img src="https://i.pinimg.com/736x/41/5d/48/415d48909a5fe8171ca1d7cbe2d0d5aa.jpg" alt="Music festival production rig" loading="lazy"><div class="overlay"><h5>Music Festival</h5><p class="text-small" style="color:rgba(255,255,255,0.7);">Full production rig</p></div></div></div>
+        <div class="gallery-col fade-in" data-category="church"><div class="gallery-item" data-lightbox><img src="https://i.pinimg.com/736x/10/3b/31/103b31568d20a9ab35cede1eb643e6b0.jpg" alt="Worship service stage" loading="lazy"><div class="overlay"><h5>Worship Service</h5><p class="text-small" style="color:rgba(255,255,255,0.7);">In-house sound upgrade</p></div></div></div>
+        <div class="gallery-col fade-in" data-category="parties"><div class="gallery-item" data-lightbox><img src="https://i.pinimg.com/736x/2c/c3/6c/2cc36c0e683c2bbba23be0bf16a915ef.jpg" alt="Club night DJ and lighting" loading="lazy"><div class="overlay"><h5>Club Night</h5><p class="text-small" style="color:rgba(255,255,255,0.7);">DJ booth & laser show</p></div></div></div>
+        <div class="gallery-col fade-in" data-category="corporate"><div class="gallery-item" data-lightbox><img src="https://i.pinimg.com/736x/46/8a/4a/468a4a143629d3f2372cf61a663a2473.jpg" alt="Product launch event stage" loading="lazy"><div class="overlay"><h5>Product Launch</h5><p class="text-small" style="color:rgba(255,255,255,0.7);">Stage & presentation AV</p></div></div></div>
+      </div>
+    </div>
+  </section>
+
+  <div id="site-footer"></div>
+  <div id="site-whatsapp"></div>
+
+  <div id="lightbox" class="lightbox">
+    <button class="lightbox-close" aria-label="Close lightbox">&times;</button>
+    <img src="" alt="">
+  </div>
+
+  <script>window.TMS_LAYOUT = { scrolled: true };</script>
+  <script src="js/icons.js"></script>
+  <script src="js/images.js"></script>
+  <script src="js/components.js"></script>
+  <script src="js/main.js"></script>
+  <script>
+    document.getElementById('gallery-filters')?.addEventListener('click', e => {
+      const tab = e.target.closest('.category-tab');
+      if (!tab) return;
+      document.querySelectorAll('#gallery-filters .category-tab').forEach(t => t.classList.remove('active'));
+      tab.classList.add('active');
+      const filter = tab.dataset.filter;
+      document.querySelectorAll('.gallery-col').forEach(col => {
+        col.style.display = filter === 'all' || col.dataset.category === filter ? '' : 'none';
+      });
+    });
+  </script>
+</body>
+</html>
