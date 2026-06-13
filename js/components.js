@@ -87,7 +87,7 @@ function renderFooter(showNewsletter = true) {
           </div>
           <div>
             <h5>Contact</h5>
-            <a href="tel:+27711770015">0711770015</a>
+            <a href="tel:0711770015">0711770015</a>
             <a href="mailto:edisonkipkemoi319@gmail.com">edisonkipkemoi319@gmail.com</a>
             <a href="contact.html">View Location</a>
           </div>
@@ -102,7 +102,7 @@ function renderFooter(showNewsletter = true) {
 function renderWhatsApp(message = 'equipment hire') {
   const text = encodeURIComponent(`Hi Tripple M Sounds, I'd like to inquire about ${message}.`);
   return `
-    <a href="https://wa.me/27711770015?text=${text}" class="whatsapp-float" target="_blank" rel="noopener" aria-label="Chat on WhatsApp">
+    <a href="https://wa.me/0711770015?text=${text}" class="whatsapp-float" target="_blank" rel="noopener" aria-label="Chat on WhatsApp">
       ${WHATSAPP_SVG}
     </a>`;
 }
