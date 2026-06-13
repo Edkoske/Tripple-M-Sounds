@@ -87,7 +87,7 @@ function renderFooter(showNewsletter = true) {
           </div>
           <div>
             <h5>Contact</h5>
-            <a href="tel:+254710241295">0710 241 295</a>
+            <a href="tel:+254710241295">0 241 295</a>
             <a href="mailto:edisonkipkemoi319@gmail.com">edisonkipkemoi319@gmail.com</a>
             <a href="contact.html">View Location</a>
           </div>
